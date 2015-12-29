@@ -49,7 +49,7 @@
       	<gap:platform name="android" />
       	<gap:platform name="winphone" />
 	  
-   <gap:plugin name="de.appplant.cordova.plugin.local-notification" />
+  <gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.8.1" />
  
   <gap:plugin name="org.apache.cordova.core.camera" />
 
