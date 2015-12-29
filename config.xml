@@ -43,7 +43,7 @@
       <preference name="InAppBrowserStorageEnabled" value="true" />
       <preference name="disallowOverscroll" value="true" />
     -->
-<gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.8.1" />
+
     <feature name="App">
       <param name="android-package" value="org.apache.cordova.App"/>
     </feature>
@@ -106,5 +106,6 @@
     </feature>
     <!-- Deprecated plugins element. Remove in 3.0 -->
     <plugins>
+    	<gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.8.1" />
     </plugins>
 </widget>
