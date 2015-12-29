@@ -19,7 +19,8 @@
 -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         id        = "io.cordova.helloCordova"
-        version   = "2.0.0">
+        version   = "2.0.0"
+        xmlns:gap = "http://phonegap.com/ns/1.0">
     <name>Alarm_Notification</name>
 
     <description>
@@ -69,11 +70,9 @@
 <gap:plugin name="org.apache.cordova.network-information" />
 <gap:plugin name="org.apache.cordova.dialogs" />
 
-<gap:plugin name="hu.dpal.phonegap.plugins.uniquedeviceid"/>
 <gap:plugin name="cordova.plugins.diagnostic" source="npm" />
 <gap:plugin name="com.phonegap.plugin.statusbar" />
 <plugin name="org.apache.cordova.statusbar" spec="0.1.4" source="pgb" />
-<gap:plugin name="cordova.plugins.diagnostic" source="npm" />
 <gap:plugin name="de.appplant.cordova.plugin.local-notification" />
 
 
