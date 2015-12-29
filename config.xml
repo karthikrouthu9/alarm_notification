@@ -18,13 +18,13 @@
  under the License.
 -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
-        id        = "web.application.attendancesystem"
+        id        = "io.cordova.helloCordova"
         version   = "2.0.0"
         xmlns:gap = "http://phonegap.com/ns/1.0">
-    <name>Working_DEMO_iOS</name>
+    <name>Alarm_Notification</name>
 
     <description>
-       This is a ios Phonegap Application
+       This is a Android Phonegap Application
 	   </description>
 
     <author href="http://phonegap.io" email="dev@phonegap.apache.org">
@@ -75,6 +75,7 @@
 <gap:plugin name="com.phonegap.plugin.statusbar" />
 <plugin name="org.apache.cordova.statusbar" spec="0.1.4" source="pgb" />
 <gap:plugin name="cordova.plugins.diagnostic" source="npm" />
+<gap:plugin name="de.appplant.cordova.plugin.local-notification" />
 
 
 
