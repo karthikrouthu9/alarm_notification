@@ -48,7 +48,8 @@
    	<preference name="AutoHideSplashScreen" value="false" />
       <preference name="orientation" value="portrait" />
 <preference name="StatusBarOverlaysWebView" value="false" />
-<preference name="android-build-tool" value="ant" />
+<preference name="android-build-tool" value="gradle" />
+
 
 
    
