@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>PhoneGap</title>
+  <script type="text/javascript" charset="utf-8" src="cordova-2.8.0.js"></script>
+  <script>
+  document.addEventListener("deviceready", onDeviceReady, false);
+
+    function onDeviceReady() {
+       alert("On Device Ready");
+       myfunc();
+    }
+ function myfunc()
+ {
+  alert("dhjn");
+   navigator.notification.alert('You are the winner!', alertDismissed, 'Game Over', 'Done');
+  }
+  </script>
+ </head>
+ <body>
+    <h1>Hello PhoneGap</h1>
+     <button type="submit" name="go" id="submit_button" onclick="myfunc();" class="btn btn-lg btn-primary btn-block">Register</button>
+ </body>
+</html>
