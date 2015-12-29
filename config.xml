@@ -21,10 +21,10 @@
         id        = "web.application.attendancesystem"
         version   = "2.0.0"
         xmlns:gap = "http://phonegap.com/ns/1.0">
-    <name>Working_DEMO_iOS</name>
+    <name>Alarm_Notification</name>
 
     <description>
-       This is a ios Phonegap Application
+       This is a Android Phonegap Application
 	   </description>
 
     <author href="http://phonegap.io" email="dev@phonegap.apache.org">
