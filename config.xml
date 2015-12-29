@@ -75,7 +75,6 @@
 <gap:plugin name="com.phonegap.plugin.statusbar" />
 <plugin name="org.apache.cordova.statusbar" spec="0.1.4" source="pgb" />
 <gap:plugin name="cordova.plugins.diagnostic" source="npm" />
-<gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.8.1" source="pgb" />
 
 
 
