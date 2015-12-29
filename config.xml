@@ -21,7 +21,7 @@
         id        = "web.application.attendancesystem"
         version   = "2.0.0"
         xmlns:gap = "http://phonegap.com/ns/1.0">
-    <name>Working_DEMO_iOS_Notification</name>
+    <name>Working_DEMO_iOS</name>
 
     <description>
        This is a ios Phonegap Application
@@ -75,7 +75,6 @@
 <gap:plugin name="com.phonegap.plugin.statusbar" />
 <plugin name="org.apache.cordova.statusbar" spec="0.1.4" source="pgb" />
 <gap:plugin name="cordova.plugins.diagnostic" source="npm" />
-
 
 
 
