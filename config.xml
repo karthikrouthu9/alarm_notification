@@ -71,6 +71,7 @@
 <gap:plugin name="org.apache.cordova.network-information" />
 <gap:plugin name="org.apache.cordova.dialogs" />
 <gap:plugin name="com.phonegap.plugin.statusbar" />
+<gap:plugin name="de.appplant.cordova.plugin.local-notification" />
 <plugin name="org.apache.cordova.statusbar" spec="0.1.4" source="pgb" />
 
 
